@@ -1,0 +1,13 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/cyf/WorkSpace/ros_code/test/devel/lib/python2.7/dist-packages",
+        "/opt/ros/melodic/lib/python2.7/dist-packages",
+        "/home/cyf/simulator/carla/PythonAPI/carla/dist/carla-0.9.13-py2.7-linux-x86_64.egg",
+        "/home/cyf/simulator/carla/PythonAPI/carla/dist/carla-0.9.13-py2.7-linux-x86_64.egg",
+        "/home/cyf/simulator/carla"
+    ],
+    "files.associations": {
+        "queue": "cpp",
+        "stack": "cpp"
+    }
+}

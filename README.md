@@ -1,11 +1,10 @@
-![RRT visulaise](https://user-images.githubusercontent.com/75038294/162620162-21e3b01e-a4be-406f-be8d-baf749d41625.gif)
+# 建图
+打开gazebo roslaunch turtlebot3_gazebo turtlebot3_stage_2.launch
+建图命令  roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
+栅格图保存 roslaunch mapserver.launch 
 
-![dijkstra_visualisation](https://user-images.githubusercontent.com/75038294/161427986-cfe1aead-0894-474b-8aa6-ea56322a7184.gif)
 
-TODO:
-1. Add turtlebot installation instructions
-2. Add instrucitons to call custom planner
-3. https://www.youtube.com/watch?v=KT43-sinGEY
-4. Usage of global planner and switching between planners
-5. add new gifs
-6. fix bugs
+## 规划
+打开gazebo roslaunch turtlebot3_gazebo turtlebot3_stage_2.launch
+roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=/home/cyf/WorkSpace/ros_code/test/src/turtlebot3/turtlebot3_navigation/maps/maps.yaml
+然后勾选marker，选择起点终点
